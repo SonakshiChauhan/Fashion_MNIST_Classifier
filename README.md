@@ -236,8 +236,8 @@ for i in range(10):
                                                    np.sum(class_correct[i]),np.sum(class_total[i])))
   
 print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)'%(100. *np.sum(class_correct)/np.sum(class_total),
-                                                    np.sum(class_correct),np.sum(class_total)))```
-                                                    
+                                                    np.sum(class_correct),np.sum(class_total)))
+```
 ->Now we finally test our model and stack the test accuracy having an overall accuracy as displayed below:
 
 ![image](https://user-images.githubusercontent.com/91408631/236688621-abccc18d-23ce-4422-974b-eee3f4afd385.png)
