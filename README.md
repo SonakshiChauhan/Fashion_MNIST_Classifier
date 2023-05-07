@@ -262,8 +262,8 @@ for idx in np.arange(16):
   ax=fig.add_subplot(2,int(20/2),idx+1,xticks=[],yticks=[])
   ax.imshow(np.squeeze(images[idx]),cmap='gray')
   ax.set_title("{} ({})".format(str(preds[idx].item()),str(labels[idx].item())),
-                color=("green" if preds[idx]==labels[idx] else "red"))
-                ```
+                color=("green" if preds[idx]==labels[idx] else "red"))```
+
 ->Now we visualize the and test the model on a batch of 16 photos and the results obtained are displayed below:
 
 ![image](https://user-images.githubusercontent.com/91408631/236688736-b78ecf15-aa02-470f-b400-55fc1d753312.png)
