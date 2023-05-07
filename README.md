@@ -236,8 +236,8 @@ for i in range(10):
                                                    np.sum(class_correct[i]),np.sum(class_total[i])))
   
 print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)'%(100. *np.sum(class_correct)/np.sum(class_total),
-                                                    np.sum(class_correct),np.sum(class_total)))
-```
+                                                    np.sum(class_correct),np.sum(class_total)))```
+                                                    
 ->Now we finally test our model and stack the test accuracy having an overall accuracy as displayed below:
 
 ![image](https://user-images.githubusercontent.com/91408631/236688621-abccc18d-23ce-4422-974b-eee3f4afd385.png)
@@ -263,6 +263,7 @@ for idx in np.arange(16):
   ax.imshow(np.squeeze(images[idx]),cmap='gray')
   ax.set_title("{} ({})".format(str(preds[idx].item()),str(labels[idx].item())),
                 color=("green" if preds[idx]==labels[idx] else "red"))```
+
 
 ->Now we visualize the and test the model on a batch of 16 photos and the results obtained are displayed below:
 
