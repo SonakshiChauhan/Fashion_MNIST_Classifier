@@ -120,6 +120,8 @@ for idx in np.arange(20):
   fig.tight_layout
   ```
 ->Now we visualize the dataset and the output is as below:
+
+
 ![image](https://user-images.githubusercontent.com/91408631/236688049-50cfd106-4b0a-4cb2-aa14-a94cdf8a3cdd.png)
 
 
@@ -191,8 +193,11 @@ for e in range(epochs):
 ->Here we start the training process
 ->We track the training and validation loss using custom built function.
 ->Below is the output of training stacking the training and validation loss
+
 ![image](https://user-images.githubusercontent.com/91408631/236688365-665a6572-c9b8-47ec-ae94-3b5c5bbcb435.png)
+
 ->Vizualizing the above loss results we geta plot like below:
+
 ![image](https://user-images.githubusercontent.com/91408631/236688411-4eefc848-bfff-4576-b9b5-71a5afa0ea7a.png)
 
 
@@ -234,6 +239,7 @@ print('\nTest Accuracy (Overall): %2d%% (%2d/%2d)'%(100. *np.sum(class_correct)/
                                                     np.sum(class_correct),np.sum(class_total)))
 ```
 ->Now we finally test our model and stack the test accuracy having an overall accuracy as displayed below:
+
 ![image](https://user-images.githubusercontent.com/91408631/236688621-abccc18d-23ce-4422-974b-eee3f4afd385.png)
 
 
@@ -259,6 +265,7 @@ for idx in np.arange(16):
                 color=("green" if preds[idx]==labels[idx] else "red"))
                 ```
 ->Now we visualize the and test the model on a batch of 16 photos and the results obtained are displayed below:
+
 ![image](https://user-images.githubusercontent.com/91408631/236688736-b78ecf15-aa02-470f-b400-55fc1d753312.png)
 
 #Conclusion
