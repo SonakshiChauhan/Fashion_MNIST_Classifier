@@ -1,4 +1,4 @@
-# Titanic_Survival
+# Fashion MNIST Classifier
 
 **Completed by Sonakshi Chauhan.**
 
